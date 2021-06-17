@@ -1,3 +1,24 @@
+= C++ example project scanned on SonarCloud using Bitbucket Cloud pipelines
+// TODO: add SC status
+// TODO: add link to SC
+
+It is very easy to analyze a C/C++/Objective-C project on Bitbucket with SonarCloud:
+
+. Create a `sonar-project.properties` file to store your configuration
+. In your `bitbucket-pipelines.yml` file:
+.. Activate the https://docs.travis-ci.com/user/sonarcloud/[Travis Add-on]
+.. Wrap your compilation with the Build Wrapper
+.. Run `sonar-scanner` later on
+
+You can take a look at the link:sonar-project.properties[sonar-project.properties] and link:.bitbucket-pipelines.yml[bitbucket-pipelines.yml] to see it in practice.
+
+= Documentation
+
+- https://docs.sonarqube.org/latest/analysis/languages/cfamily/[Documentation of the C/C++/Objective-C plugin and its Build Wrapper]
+- https://sonarcloud.io/documentation/getting-started/bitbucket-cloud/[Getting started with Bitbucket Cloud]
+- https://sonarcloud.io/documentation/reference/bitbucket-integration/[Bitbucket Cloud Integration]
+- https://sonarcloud.io/documentation/reference/ci/bitbucket-pipelines/[Analyze your repository with Bitbucket Pipelines]
+
 = Linux\Autotools
 
 A build of the https://github.com/sc-sq-c-family-examples/code[code repository] on a Linux platform using GNU Autotools build system.

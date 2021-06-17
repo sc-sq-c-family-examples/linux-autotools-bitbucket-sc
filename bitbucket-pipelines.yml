@@ -1,7 +1,7 @@
 image: gcc:10.2
 
 clone:
-  depth: full
+  depth: full  # SonarCloud scanner needs the full history to assign issues properly
   
 definitions:
   caches:
@@ -14,7 +14,8 @@ definitions:
         script:
           - autoreconf --install
           - ./configure
-          - export SONAR_SCANNER_VERSION=4.4.0.2170
+          - export SONAR_SCANNER_VERSION=4.4.0.2170 # Find the latest version in the "Linux" link on this page:
+                                                    # https://sonarcloud.io/documentation/analysis/scan/sonarscanner/
           - export SONAR_SCANNER_HOME=$HOME/.sonar/sonar-scanner-$SONAR_SCANNER_VERSION-linux
           - export BW_OUTPUT=$HOME/.sonar/bw-output
           - mkdir -p $BW_OUTPUT
