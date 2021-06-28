@@ -2,7 +2,7 @@
 // TODO: add SC status
 // TODO: add link to SC
 
-To analyze a C/C++/Objective-C project on Bitbucket pipelines with SonarCloud, follow the steps described here: https://sonarcloud.io/documentation/getting-started/bitbucket-cloud/[Getting started with Bitbucket Cloud].
+To analyze a C, C++ and Objective-C project on Bitbucket pipelines with SonarCloud, follow the steps described here: https://sonarcloud.io/documentation/getting-started/bitbucket-cloud/[Getting started with Bitbucket Cloud].
 
 To sum up, you need to:
 
@@ -16,7 +16,7 @@ You can take a look at the link:sonar-project.properties[sonar-project.propertie
 
 = Documentation
 
-- https://docs.sonarqube.org/latest/analysis/languages/cfamily/[Documentation of the C/C++/Objective-C plugin and its Build Wrapper]
+- https://docs.sonarqube.org/latest/analysis/languages/cfamily/[Documentation of the C, C++ and Objective-C plugin and its Build Wrapper]
 - https://sonarcloud.io/documentation/reference/bitbucket-integration/[Bitbucket Cloud Integration]
 - https://sonarcloud.io/documentation/reference/ci/bitbucket-pipelines/[Analyze your repository with Bitbucket Pipelines]
 
