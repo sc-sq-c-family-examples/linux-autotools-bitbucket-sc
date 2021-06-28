@@ -2,6 +2,9 @@
 // TODO: add SC status
 // TODO: add link to SC
 
+:note-caption: :information_source:
+NOTE: This simple example ignores https://sonarcloud.io/documentation/analysis/languages/cfamily/#analysis-cache[analysis cache] and https://sonarcloud.io/documentation/analysis/languages/cfamily/#multithreaded-code-scan[multithreaded execution] both of which can boost analysis significantly.
+
 To analyze a C, C++ and Objective-C project on Bitbucket pipelines with SonarCloud, follow the steps described here: https://sonarcloud.io/documentation/getting-started/bitbucket-cloud/[Getting started with Bitbucket Cloud].
 
 To sum up, you need to:
@@ -19,6 +22,9 @@ You can take a look at the link:sonar-project.properties[sonar-project.propertie
 - https://docs.sonarqube.org/latest/analysis/languages/cfamily/[Documentation of the C, C++ and Objective-C plugin and its Build Wrapper]
 - https://sonarcloud.io/documentation/reference/bitbucket-integration/[Bitbucket Cloud Integration]
 - https://sonarcloud.io/documentation/reference/ci/bitbucket-pipelines/[Analyze your repository with Bitbucket Pipelines]
+- https://sonarcloud.io/documentation/analysis/languages/cfamily/#analysis-cache[Configuring C, C++ and Objective-C analysis cache]
+- https://sonarcloud.io/documentation/analysis/languages/cfamily/#multithreaded-code-scan[Configuring multithreaded execution]
+- https://sonarcloud.io/documentation/analysis/languages/cfamily/#analysis-steps-using-compilation-database[Using compilation database (compile_commands.json)]
 
 = Linux\Autotools
 
