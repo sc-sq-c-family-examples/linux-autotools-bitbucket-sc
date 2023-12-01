@@ -12,7 +12,7 @@ definitions:
         caches:
           - sonar
         script:
-          - export SONAR_SCANNER_VERSION=4.4.0.2170 # Find the latest version in the "Linux" link on this page:
+          - export SONAR_SCANNER_VERSION=5.0.1.3006 # Find the latest version in the "Linux" link on this page:
                                                     # https://docs.sonarcloud.io/advanced-setup/ci-based-analysis/sonarscanner-cli/
           - export SONAR_SCANNER_HOME=$HOME/.sonar/sonar-scanner-$SONAR_SCANNER_VERSION-linux
           - curl --create-dirs -sSLo $HOME/.sonar/sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-$SONAR_SCANNER_VERSION-linux.zip
